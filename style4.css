@@ -1,0 +1,262 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+.contenutotal .contenu5{
+    width: 100%;
+    height: 1400px;
+    background-color: black;
+    background-image: url(/ressources/fond2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.contenu5 .bloc{
+    width: 80%;
+    height: 88%;
+    background-color: rgba(0, 0, 0, 0.527);
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    border-radius: 5px;
+}
+.contenu5 .bloc .lot1 img{
+    width: 75px;
+    height: 75px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.contenu5 .bloc .lot1 img:hover{
+    background-color: white;
+}
+.contenu5 .bloc .lot2 img{
+width: 120px;
+height: 120px;
+padding: 15px;
+border-radius: 5px;
+margin: 10px;
+
+
+}
+
+.contenu5 .bloc .lot1 {
+    display: flex;
+}
+.contenu5 .bloc .lot1 span{
+    display: inline-block;
+    text-align: center;
+}
+.contenu5 .bloc .lot1  h2{
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+.contenu5 .bloc .lot1 p{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.contenu5 .bloc .lot1 span{
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+.contenu5 .bloc .lot2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: rgba(239, 214, 177, 0.432);
+
+}
+.contenu5 .bloc .lot2:hover{
+    background-color: rgba(87, 57, 12, 0.438);
+ 
+}
+.contenu5 .bloc .lot2 #image1{
+    width: 75%;
+    height: 100%;
+    padding: 15px;
+}
+.contenu5 .bloc .lot3 h2{
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+.contenu5 .bloc .lot3 p{
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.846);
+}
+.contenu5 .bloc .lot3 a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+
+    margin-left: 30px;
+}
+.contenu5 .bloc .lot3 a:hover{
+    background-color: white;
+    color: black;
+}
+.contenu5 .bloc .lot3 hr{
+    color: rgb(75, 44, 3);
+}
+
+
+
+@media (max-width:1279px) and (min-width:1080px) {
+    .contenu5 .bloc .lot2 img{
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 10px;
+        
+        
+        }
+        
+       
+        .contenu5 .bloc .lot2 #image1{
+            width: 100%;
+            height: 90%;
+            padding: 5px;
+        }
+}
+
+@media (max-width:1079px) and (min-width:1024px) {
+    .contenu5 .bloc .lot2 img{
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 10px;
+        
+        
+        }
+        
+       
+        .contenu5 .bloc .lot2 #image1{
+            width: 100%;
+            height: 85%;
+            padding: 5px;
+        }
+
+}
+
+@media (max-width:1023px) and (min-width:834px) {
+    .contenu5 .bloc .lot2 img{
+        width: 70px;
+        height: 70px;
+        padding: 0px;
+        border-radius: 5px;
+        margin: 10px;
+        
+        
+        }
+        
+       
+        .contenu5 .bloc .lot2 #image1{
+            width: 100%;
+            height: 75%;
+            padding: 5px;
+            flex-shrink: none;
+        }
+        .contenu5 .bloc .lot2{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            background-color: rgba(239, 214, 177, 0.432);
+        
+        }
+        .contenu5 .bloc .lot1  h2{
+            color: white;
+            font-weight: bold;
+            padding: 15px;
+            font-size: 16px;
+        }
+        .contenu5 .bloc .lot1 p{
+            color: white;
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 15px;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .contenu5 .bloc .lot1 img{
+            width: 55px;
+            height: 55px;
+            color: white;
+            border: 1px solid white;
+            border-radius: 10px;
+            padding: 10px;
+        }
+}
+
+@media (max-width:833px) and (min-width:744px) {
+    .contenu5 .bloc .lot2 img{
+        width: 70px;
+        height: 70px;
+        padding: 0px;
+        border-radius: 5px;
+        margin: 5px;
+        
+        
+        }
+        
+       
+        .contenu5 .bloc .lot2 #image1{
+            width: 100%;
+            height: 90%;
+            padding: 5px;
+            flex-shrink: none;
+        } 
+        .contenu5 .bloc .lot1  h2{
+            color: white;
+            font-weight: bold;
+            padding: 15px;
+            font-size: 16px;
+        }
+        .contenu5 .bloc .lot1 p{
+            color: white;
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 15px;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .contenu5 .bloc .lot1 img{
+            width: 55px;
+            height: 55px;
+            color: white;
+            border: 1px solid white;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .contenu5 .bloc .lot2{
+            width: 100%;
+            height: 400px;
+            display: flex;
+            background-color: rgba(239, 214, 177, 0.432);
+        
+        }
+}
